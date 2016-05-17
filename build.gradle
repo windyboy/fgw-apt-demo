@@ -1,0 +1,38 @@
+plugins {
+  id 'java' // or 'groovy' Must be explicitly applied
+  // id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+dependencies {
+   compile "com.squareup.okhttp3:okhttp:3.2.0"
+}
+version = '0.0.1'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'FGW API Client Demo',
+                   'Implementation-Version': version,
+                   'Main-Class':'Main'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+task executeToken(type:JavaExec) {
+   classpath = sourceSets.main.runtimeClasspath
+   main = 'Main'
+   args 'token'
+}
+
+
+task executeGet(type:JavaExec) {
+	classpath = sourceSets.main.runtimeClasspath
+   	main = 'Main'
+   	args 'get', '44010120140723004410'
+}
+
+task executePut(type:JavaExec) {
+  classpath = sourceSets.main.runtimeClasspath
+    main = 'Main'
+    args 'put', '44010120140723004410', ''
+}
