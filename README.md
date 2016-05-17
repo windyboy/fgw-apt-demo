@@ -17,9 +17,9 @@
 ## 使用方法
 
 1. 根据生产环境修改相关参数配置
-修改main.properties中参数
+* 修改main.properties中参数
 src/main/resources/main.properties 中需要修改的参数分别是 username/password/url
-修改build.gradle中参数 
+* 修改build.gradle中参数 
 build.gradle 中可以修改的参数主要get方法中第一个参数为项目编号，put方法中第一个参数项目编号和第二个参数SBBH
 3. 获取token string
 在项目目录中执行指令 gradle executeToken
@@ -37,9 +37,9 @@ build.gradle 中可以修改的参数主要get方法中第一个参数为项目�
 
 ## Credits
 
-### Gradle http://gradle.org
-### OkHTTP https://github.com/square/okhttp
-### JWT https://jwt.io
+* Gradle http://gradle.org
+* OkHTTP https://github.com/square/okhttp
+* JWT https://jwt.io
 
 ## License
 
