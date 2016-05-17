@@ -37,9 +37,9 @@ build.gradle 中可以修改的参数主要get方法中第一个参数为项目�
 
 ## Credits
 
-Gradle http://gradle.org
-OkHTTP https://github.com/square/okhttp
-JWT https://jwt.io
+### Gradle http://gradle.org
+### OkHTTP https://github.com/square/okhttp
+### JWT https://jwt.io
 
 ## License
 
