@@ -9,9 +9,9 @@
 
 1. 安装java开发环境
 2. 安装gradle运行环境
-下载 gradle 安装包 http://www.gradle.org/downloads
-设置环境变量 GRADLE_HOME 指向gradle 安装位置
-把 GRADLE_HOME/bin 加入环境变量 PATH
+* 下载 gradle 安装包 http://www.gradle.org/downloads
+* 设置环境变量 GRADLE_HOME 指向gradle 安装位置
+* 把 GRADLE_HOME/bin 加入环境变量 PATH
 
 
 ## 使用方法
