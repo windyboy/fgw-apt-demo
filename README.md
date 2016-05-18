@@ -42,7 +42,7 @@ build.gradle
 5. 更新项目SBBH信息
   - 在项目目录中执行指令 
   ```
-  gradel executeGet
+  gradel executePet
   ```
     演示使用授权字符串，更新项目SBBH的流程
 
