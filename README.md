@@ -18,17 +18,32 @@
 
 1. 根据生产环境修改相关参数配置
   - 修改main.properties中参数
-    src/main/resources/main.properties 中需要修改的参数分别是 username/password/url
-  - 修改build.gradle中参数 
-build.gradle 中可以修改的参数主要get方法中第一个参数为项目编号，put方法中第一个参数项目编号和第二个参数SBBH
+  ```
+    src/main/resources/main.properties
+  ```
+  中需要修改的参数分别是 username/password/url
+  - 修改build.gradle中参数
+  ```
+build.gradle 
+  ```
+  中可以修改的参数主要get方法中第一个参数为项目编号，put方法中第一个参数项目编号和第二个参数SBBH
 3. 获取token string
-  - 在项目目录中执行指令 gradle executeToken
+  - 在项目目录中执行指令 
+  ```
+  gradle executeToken
+  ```
 演示从服务器获得授权字符串的流程
 4. 获取项目信息
-  - 在项目目录中执行指令 gradel executeGet
+  - 在项目目录中执行指令 
+  ```
+   gradel executeGet
+  ```
     演示使用授权字符串，获得项目信息的流程
 5. 更新项目SBBH信息
-  - 在项目目录中执行指令 gradel executeGet
+  - 在项目目录中执行指令 
+  ```
+  gradel executeGet
+  ```
     演示使用授权字符串，更新项目SBBH的流程
 
 ## 版本历史
